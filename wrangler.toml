@@ -1,0 +1,10 @@
+name = "wargroove-match-worker"
+type = "webpack"
+account_id = "90855b54c7d92428f017290df52041bb"
+workers_dev = false
+route = "worker.wgroove.tk"
+zone_id = "beb4696dbc99d1c1f9384c21c2c4e290"
+webpack_config = "webpack.config.js"
+kv_namespaces = [ 
+    { binding = "MATCHES", id = "639b502fe41c4e599b0a7cccda58a0ee", preview_id = "639b502fe41c4e599b0a7cccda58a0ee" }
+]
